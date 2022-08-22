@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Text-Switcher/static/css/main.073c9b0a.css",
-    "main.js": "/Text-Switcher/static/js/main.048e20cc.js",
+    "main.js": "/Text-Switcher/static/js/main.1167fb67.js",
     "static/js/988.3c7329c1.chunk.js": "/Text-Switcher/static/js/988.3c7329c1.chunk.js",
     "index.html": "/Text-Switcher/index.html",
     "main.073c9b0a.css.map": "/Text-Switcher/static/css/main.073c9b0a.css.map",
-    "main.048e20cc.js.map": "/Text-Switcher/static/js/main.048e20cc.js.map",
+    "main.1167fb67.js.map": "/Text-Switcher/static/js/main.1167fb67.js.map",
     "988.3c7329c1.chunk.js.map": "/Text-Switcher/static/js/988.3c7329c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.048e20cc.js"
+    "static/js/main.1167fb67.js"
   ]
 }
