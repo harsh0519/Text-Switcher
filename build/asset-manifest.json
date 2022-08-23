@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.301b186a.js",
-    "static/js/988.3c7329c1.chunk.js": "/static/js/988.3c7329c1.chunk.js",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.301b186a.js.map": "/static/js/main.301b186a.js.map",
-    "988.3c7329c1.chunk.js.map": "/static/js/988.3c7329c1.chunk.js.map"
+    "main.css": "/Text-Switcher/static/css/main.073c9b0a.css",
+    "main.js": "/Text-Switcher/static/js/main.9be0e4a4.js",
+    "static/js/988.3c7329c1.chunk.js": "/Text-Switcher/static/js/988.3c7329c1.chunk.js",
+    "index.html": "/Text-Switcher/index.html",
+    "main.073c9b0a.css.map": "/Text-Switcher/static/css/main.073c9b0a.css.map",
+    "main.9be0e4a4.js.map": "/Text-Switcher/static/js/main.9be0e4a4.js.map",
+    "988.3c7329c1.chunk.js.map": "/Text-Switcher/static/js/988.3c7329c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.301b186a.js"
+    "static/js/main.9be0e4a4.js"
   ]
 }

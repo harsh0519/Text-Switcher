@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 export default function Navbar(props) {
   return (
     <>
@@ -9,9 +9,9 @@ export default function Navbar(props) {
           className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
         >
           <div className="container-fluid">
-            <a className="navbar-brand " href="#">
+            <Link className="navbar-brand " to="/">
               {props.title}
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -29,15 +29,15 @@ export default function Navbar(props) {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link className="nav-link active" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
-                {/* <li className="nav-item">
-                  <a className="nav-link" href="/about">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/about">
                     About us
-                  </a>
-                </li> */}
+                  </Link>
+                </li>
               </ul>
               <div
                 className={`form-check form-switch text-${
@@ -46,7 +46,7 @@ export default function Navbar(props) {
               >
                 <input
                   onClick={props.tooglemode}
-                  className="form-check-input text-light mx-2"
+                  className="form-check-input text-light mx-1`"
                   type="checkbox"
                   role="switch"
                   id="flexSwitchCheckDefault"
@@ -56,25 +56,6 @@ export default function Navbar(props) {
                   htmlfor="flexSwitchCheckDefault"
                 >
                   Enable Dark Mode
-                </label>
-              </div>
-              <div
-                className={`form-check form-switch text-${
-                  props.mode === "light" ? "dark" : "light"
-                }`}
-              >
-                <input
-                  onClick={props.tooglemode1}
-                  className="form-check-input text-light mx-2"
-                  type="checkbox"
-                  role="switch"
-                  id="flexSwitchCheckDefault"
-                />
-                <label
-                  className="form-check-label"
-                  htmlFor="flexSwitchCheckDefault"
-                >
-                  Enable Bluish Mode
                 </label>
               </div>
             </div>
